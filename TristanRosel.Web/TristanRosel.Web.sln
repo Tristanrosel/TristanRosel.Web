@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TristanRosel.Web", "TristanRosel.Web.csproj", "{ABE06055-2678-48BC-97BD-2E859BDF7CDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TristanRosel.Models", "..\TristanRosel.Models\TristanRosel.Models.csproj", "{30AA5AD9-4671-4871-BA65-276CB87A6936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TristanRosel.Contracts", "..\TristanRosel.Contracts\TristanRosel.Contracts.csproj", "{FB348000-7A84-4FE5-B283-90B04E09E496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TristanRosel.EntityFramework", "..\TristanRosel.EntityFramework\TristanRosel.EntityFramework.csproj", "{FC50F511-645D-4D28-8081-6AAAF0514093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TristanRosel.MySql", "..\TristanRosel.MySql\TristanRosel.MySql.csproj", "{3388265F-A4D0-4604-9222-86DDA8316088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TristanRosel.Services", "..\TristanRosel.Services\TristanRosel.Services.csproj", "{6F330456-B935-4DA0-9B17-2121EF36168F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABE06055-2678-48BC-97BD-2E859BDF7CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE06055-2678-48BC-97BD-2E859BDF7CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE06055-2678-48BC-97BD-2E859BDF7CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE06055-2678-48BC-97BD-2E859BDF7CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30AA5AD9-4671-4871-BA65-276CB87A6936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AA5AD9-4671-4871-BA65-276CB87A6936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AA5AD9-4671-4871-BA65-276CB87A6936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AA5AD9-4671-4871-BA65-276CB87A6936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB348000-7A84-4FE5-B283-90B04E09E496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB348000-7A84-4FE5-B283-90B04E09E496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB348000-7A84-4FE5-B283-90B04E09E496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB348000-7A84-4FE5-B283-90B04E09E496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC50F511-645D-4D28-8081-6AAAF0514093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC50F511-645D-4D28-8081-6AAAF0514093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC50F511-645D-4D28-8081-6AAAF0514093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC50F511-645D-4D28-8081-6AAAF0514093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3388265F-A4D0-4604-9222-86DDA8316088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3388265F-A4D0-4604-9222-86DDA8316088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3388265F-A4D0-4604-9222-86DDA8316088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3388265F-A4D0-4604-9222-86DDA8316088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F330456-B935-4DA0-9B17-2121EF36168F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F330456-B935-4DA0-9B17-2121EF36168F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F330456-B935-4DA0-9B17-2121EF36168F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F330456-B935-4DA0-9B17-2121EF36168F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B26921A-59DC-4D41-A1EE-21BE9A21601E}
+	EndGlobalSection
+EndGlobal

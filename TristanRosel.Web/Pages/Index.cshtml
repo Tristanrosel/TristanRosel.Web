@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Library and Book Listings";
+}
+
+<h1>Libraries</h1>
+@foreach (var library in Model.Libraries)
+{
+    <h3>@library.Name</h3>
+    <p>Location: @library.Location</p>
+    <p>Established Year: @library.EstablishedYear</p>
+    <hr />
+}
+
+<h1>Books</h1>
+@foreach (var book in Model.Books)
+{
+    <h3>@book.Title</h3>
+    <p>Author: @book.Author</p>
+    <p>ISBN: @book.ISBN</p>
+    <p>Library: @book.Library.Name</p> 
+    <hr />
+}
